@@ -226,23 +226,23 @@ footer {
 }
 .programHeader {
 	height: 192px;
-	background: url(../_images/accent1.jpg) no-repeat;
+	background: url(../_images/equipo2.jpg) no-repeat;
 }
 .aboutHeader {
 	height: 192px;
-	background: url(../_images/accent3.jpg) no-repeat;
+	background: url(../_images/servicio.jpg) no-repeat;
 }
 .quienessomosHeader {
 	height: 192px;
-	background: url(../_images/accent4.jpg) no-repeat;
+	background: url(../_images/somos.jpg) no-repeat;
 }
 .graphicHeader {
 	height: 192px;
-	background: url(../_images/accent6.jpg);
+	background: url(../_images/portafolio1.jpg);
 }
 .requestHeader {
 	height: 192px;
-	background: url(../_images/design1.jpg) no-repeat;
+	background: url(../_images/contactenos.jpg) no-repeat;
 }
 .errorHeader {
 	height: 192px;
