@@ -4,24 +4,24 @@
 		font-family:'Sansation';
 		font-style: normal;
 		font-weight: normal;
-		src: url('../_fonts/Bitter-Regular-webfont.woff') format('woff'),
-            url('../_fonts/Bitter-Regular-webfont.ttf') format('truetype'),
+		src: url('../_fonts/Sansation_Regular.woff') format('woff'),
+            url('../_fonts/Sansation_Regular.ttf') format('truetype'),
 }
 
    @font-face {
 		font-family:'Sansation';
 		font-style: light;
 		font-weight: normal;
-		src: url('../_fonts/Bitter-Regular-webfont.woff') format('woff'),
-            url('../_fonts/Bitter-Regular-webfont.ttf') format('truetype'),
+		src: url('../_fonts/Sansation_Light.woff') format('woff'),
+            url('../_fonts/Sansation_Light.ttf') format('truetype'),
 
 }
    @font-face {
 		font-family:'Sansation';
 		font-style: bold;
 		font-weight: normal;
-		src: url('../_fonts/Bitter-Regular-webfont.woff') format('woff'),
-            url('../_fonts/Bitter-Regular-webfont.ttf') format('truetype'),
+		src: url('../_fonts/Sansation_Bold.woff') format('woff'),
+            url('../_fonts/Sansation_Bold.ttf') format('truetype'),
 
 }
 
@@ -33,7 +33,7 @@
 html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
 	border: 0;
 	vertical-align: baseline;
-	font: sansation;
+	font: Sansation;
 	margin-bottom: 0;
 	margin-left: 0;
 	margin-right: auto;
