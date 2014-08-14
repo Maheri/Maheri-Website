@@ -48,7 +48,7 @@ html {
 	background: url(../_images/fondo.jpg);
 }
 body {
-	font: 100% DroidSans, Arial, Helvetica, sans-serif;
+	font: 100% Sansation, "Sansation Bold", "Sansation Light";
 	line-height: 1.4em;
 	font-weight: normal;
 	font-style: normal;
@@ -113,9 +113,9 @@ em {
 	font-weight: bold;
 	font-family: "Sansation Bold";
 }
-.lavender {
+.red {
 	text-transform: uppercase;
-	color: rgb(255,255,255);
+	color: rgb(226,2,10);
 	font-weight: bold;
 	font-family: Sansation, "Sansation Bold", "Sansation Light";
 }
@@ -297,6 +297,7 @@ section.condense {
 	-ms-transition: max-height 0.75s ease 0s;
 	-o-transition: max-height 0.75s ease 0s;
 	transition: max-height 0.75s ease 0s;
+	background-color: #89B342;
 }
 section.condense:hover {
 	max-height: 999px;
@@ -386,7 +387,7 @@ article h2 {
 	clear: both;
 }
 article h3 {
-	font-family: Bitter, Georgia, Times, "Times New Roman", serif;
+	font-family: Sansation, "Sansation Bold", "Sansation Light";
 	font-size: 1.2em;
 	color: rgb(251, 174, 44);
 	font-weight: bold;
@@ -516,7 +517,7 @@ p.statement {
 	line-height: 1.7;
 }
 p.quote {
-	font-family: Bitter, Georgia, "Times New Roman", Times, serif;
+	font-family: Sansation, "Sansation Bold", "Sansation Light";
 	font-size: 1.58em;
 	line-height: 1.6;
 	padding: 16px;
