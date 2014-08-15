@@ -102,20 +102,10 @@ em {
 .nrm {
 	margin-right: 0;
 }
-.orange {
+
+.white {
 	text-transform: uppercase;
-	color: rgb(226,2,10);
-	font-weight: bold;
-}
-.blue {
-	text-transform: uppercase;
-	color: rgb(226,2,10);
-	font-weight: bold;
-	font-family: "Sansation Bold";
-}
-.red {
-	text-transform: uppercase;
-	color: rgb(226,2,10);
+	color: rgb(255,255,255);
 	font-weight: bold;
 	font-family: Sansation, "Sansation Bold", "Sansation Light";
 }
@@ -297,7 +287,7 @@ section.condense {
 	-ms-transition: max-height 0.75s ease 0s;
 	-o-transition: max-height 0.75s ease 0s;
 	transition: max-height 0.75s ease 0s;
-	background-color: #89B342;
+	background-color: #009966;
 }
 section.condense:hover {
 	max-height: 999px;
