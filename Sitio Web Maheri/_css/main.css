@@ -74,7 +74,7 @@ strong {
 em {
 	font-style: italic;
 }
-/* Global classes */
+/* Clases Goblabes */
 
 /*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
 /* For modern browsers */
@@ -109,10 +109,11 @@ em {
 	font-weight: bold;
 	font-family: Sansation, "Sansation Bold", "Sansation Light";
 }
+
 .more {
 	display: block;
 }
-/*layout styles*/ 
+/*estilos*/ 
 body {
 	width: 960px;
 	position: relative;
@@ -224,9 +225,11 @@ p.branding {
 	padding: 1.2em 1em;
 	color: white;
 	float: right;
+	font-weight: light;
 	font-family: Sansation, "Sansation Bold", "Sansation Light";
 	font-size: 1.27em;
 	line-height: 1.6;
+	
 }
 p.branding a {
 	color: rgb(249, 228, 130);
