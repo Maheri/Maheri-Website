@@ -257,7 +257,10 @@ section.info h2 {
 }
 section.info img {
 	display: block;
-	margin: 0 auto 2em;
+	margin-bottom: 2em;
+	margin-left: 1em;
+	margin-right: auto;
+	margin-top: 0;
 }
 section.info p, section.info ul {
 	margin: 0 1.2em 1em;
