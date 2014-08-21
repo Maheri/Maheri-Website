@@ -1,27 +1,29 @@
+@import url("../webfonts/Sansation_Regular/stylesheet.css");
+@import url("../webfonts/Sansation_Bold/stylesheet.css");
 /*Documento CSS */
 /*Declaraciones de fuentes*/
    @font-face {
-		font-family:'Sansation';
+		font-family:'Sansation Regular';
 		font-style: normal;
 		font-weight: normal;
-		src: url('../_fonts/Sansation_Regular.woff') format('woff'),
-            url('../_fonts/Sansation_Regular.ttf') format('truetype'),
+		src: url('../_fonts/Sansation_Regular.woff') format('woff');
+       src: url('../_fonts/Sansation_Regular.ttf') format('truetype');
 }
 
    @font-face {
-		font-family:'Sansation';
-		font-style: light;
+		font-family:'Sansation Light';
+		font-style: normal;
 		font-weight: normal;
-		src: url('../_fonts/Sansation_Light.woff') format('woff'),
-            url('../_fonts/Sansation_Light.ttf') format('truetype'),
+		src: url('../_fonts/Sansation_Light.woff') format('woff');
+       src: url('../_fonts/Sansation_Light.ttf') format('truetype');
 
 }
    @font-face {
-		font-family:'Sansation';
-		font-style: bold;
+		font-family:'Sansation Bold';
+		font-style: normal;
 		font-weight: normal;
-		src: url('../_fonts/Sansation_Bold.woff') format('woff'),
-            url('../_fonts/Sansation_Bold.ttf') format('truetype'),
+		src: url('../_fonts/Sansation_Bold.woff') format('woff');
+       src: url('../_fonts/Sansation_Bold.ttf') format('truetype');
 
 }
 
@@ -33,7 +35,7 @@
 html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
 	border: 0;
 	vertical-align: baseline;
-	font: Sansation;
+	font: Sansation Regular;
 	margin-bottom: 0;
 	margin-left: 0;
 	margin-right: auto;
@@ -41,14 +43,12 @@ html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h
 }
 
 /*html5 display rule*/
-address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
-	display: white;
-}
+
 html {
 	background: url(../_images/fondo.jpg);
 }
 body {
-	font: 100% Sansation, "Sansation Bold", "Sansation Light";
+	font-family: "Sansation Regular";
 	line-height: 1.4em;
 	font-weight: normal;
 	font-style: normal;
@@ -63,10 +63,11 @@ a {
 }
 a:hover {
 	background: url(../_images/diag_pattern.png);
+	font-family: "Sansation Regular";
 }
 p {
 	margin-bottom: 0em;
-	font-family: Sansation, "Sansation Bold", "Sansation Light";
+	font-family: "Sansation Regular";
 }
 strong {
 	font-weight: bold;
@@ -87,9 +88,6 @@ em {
     clear:both;
 }
 
-.cf {
-    zoom:1;
-}
 .cr {
 	clear: right;
 }
@@ -106,8 +104,8 @@ em {
 .white {
 	text-transform: uppercase;
 	color: rgb(255,255,255);
-	font-weight: bold;
-	font-family: Sansation, "Sansation Bold", "Sansation Light";
+	font-weight: normal;
+	font-family: 'Sansation Bold'
 }
 
 .more {
@@ -186,7 +184,7 @@ footer {
 .pageHeader a:hover {
 	color: rgb(226, 2, 10);
 	background: none;
-	font-family: Sansation, "Sansation Bold", "Sansation Light";
+	font-family: "Sansation Light";
 }
 /*page-specific header styles*/
 .homeHeader {
@@ -225,11 +223,10 @@ p.branding {
 	padding: 1.2em 1em;
 	color: white;
 	float: right;
-	font-weight: light;
-	font-family: Sansation, "Sansation Bold", "Sansation Light";
+	font-weight: normal;
+	font-family: "Sansation Regular";
 	font-size: 1.27em;
-	line-height: 1.6;
-	
+	line-height: 1.6;	
 }
 p.branding a {
 	color: rgb(249, 228, 130);
@@ -251,7 +248,7 @@ section.info h2 {
 	background: url(../_images/diag_pattern.png);
 	line-height: 45px;
 	padding-left: .6em;
-	font-family: Sansation, "Sansation Bold", "Sansation Light";
+	font-family: "Sansation Light";
 	font-size: 1.6em;
 	font-weight: 100;
 }
@@ -265,7 +262,7 @@ section.info img {
 section.info p, section.info ul {
 	margin: 0 1.2em 1em;
 	list-style: none;
-	font-family: Sansation, "Sansation Bold", "Sansation Light";
+	font-family: 'Sansation Regular';
 	color: #FFF;
 }
 section.info li {
@@ -276,9 +273,10 @@ section.info li a {
 	display: block;
 }
 section.info .date {
-	font-weight: bold;
+	font-weight: normal;
 	color: #e2020a;
 	display: block;
+	font-family: 'Sansation Bold';
 }
 section.info ul {
 	margin-top: 16px;
@@ -369,21 +367,21 @@ section.find a:hover {
 }
 /*main article styles*/
 article h1 {
-	font-family: Sansation, "Sansation Bold", "Sansation Light";
+	font-family: 'Sansation Bold';
 	font-weight: bold;
 	font-size: 2.8em;
 	color: rgb(65, 64, 66);
 	margin-bottom: .5em;
 }
 article h2 {
-	font-family: Sansation, "Sansation Bold", "Sansation Light";
+	font-family: 'Sansation Bold';
 	font-size: 1.5em;
 	color: rgb(65, 64, 66);
 	margin-bottom: .5em;
 	clear: both;
 }
 article h3 {
-	font-family: Sansation, "Sansation Bold", "Sansation Light";
+	font-family: 'Sansation Bold';
 	font-size: 1.2em;
 	color: rgb(251, 174, 44);
 	font-weight: bold;
@@ -414,7 +412,7 @@ article a.more:hover {
 ul.links {
 	list-style: none;
 	margin: 0;
-	padding 0;
+	padding: 0;
 }
 ul.links li {
 	margin-bottom: 1em;
@@ -513,7 +511,7 @@ p.statement {
 	line-height: 1.7;
 }
 p.quote {
-	font-family: Sansation, "Sansation Bold", "Sansation Light";
+	font-family: 'Sansation Bold';
 	font-size: 1.58em;
 	line-height: 1.6;
 	padding: 16px;
@@ -534,10 +532,10 @@ fieldset {
 }
 fieldset:last-child {
 	border: none;
-	font-family: Sansation, "Sansation Bold", "Sansation Light";
+	font-family: 'Sansation Bold';
 }
 legend {
-	font-family: Sansation, "Sansation Bold", "Sansation Light";
+	font-family: 'Sansation Bold';
 	font-size: 1.4em;
 	color: rgb(226,2,10);
 }
@@ -600,7 +598,7 @@ footer#pageFooter {
 	padding: 32px 0 16px;
 }
 footer h3 {
-	font-family: Sansation, "Sansation Bold", "Sansation Light";
+	font-family: Sansation, 'Sansation Bold';
 	text-transform: uppercase;
 	font-size: 1em;
 	text-align: center;
