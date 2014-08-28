@@ -29,7 +29,7 @@
 
 
 
-/*Estilos Globales/ response design/ las paginas se adecuaran al tamaño del equipo sin ser alterada visualmente -----------------------------------------------------------------------------------------------------------*/
+/*Estilos Globales -----------------------------------------------------------------------------------------------------------*/
 
 /*limited reset*/
 html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
@@ -42,7 +42,7 @@ html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h
 	margin-top: auto;
 }
 
-/*html5 display rule*/ 
+/*html5 display rule*/
 
 html {
 	background: url(../_images/fondo.jpg);

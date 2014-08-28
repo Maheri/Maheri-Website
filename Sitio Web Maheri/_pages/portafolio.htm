@@ -6,8 +6,6 @@
 <title>Maheri portafolio</title>
 <link rel="shortcut icon" href="../_images/maherilogito.ico" />
 
-<!--*definimos el estilo desde la pagina portafolio y llamamos un hijo, Esto afectara solo a nuestro recuadro blanco de información -->
-<!---->
 
 <link href="../_css/main.css" rel="stylesheet" media="screen, projection">
 <style type="text/css">
@@ -22,7 +20,7 @@ margin: 6px;
 width:180px;
 
 }
-<!--Este codigo nos permite mostrar  las imagenes en los recuadros -->
+
 
 
 
@@ -44,7 +42,7 @@ transition: opacity .5s ease-in-out;
 overflow: hidden;
 }
 
-/* estilo para la imagen de luz, lo centra verticalmente y horizontalmente, añade la transición zoom-in y hace que sea sensible utilizando una combinación de margen y la posición absoluta  Con esto cuando demos click a una imagen  se abrira, haciendose mas grande*/
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
 
 .lightbox-target img {
 margin: auto;
@@ -64,7 +62,7 @@ box-sizing: border-box;
 transition: .5s ease-in-out;
 }
 
-/* Estilos para cerrar las ventanas y la transicción que tiene */
+/* Styles the close link, adds the slide down transition */
 
 a.lightbox-close {
 display: block;
@@ -117,7 +115,7 @@ top:10px;
 transform:rotate(-45deg);
 }
 
-/* Esto posicionara y definira que hara cada lightbox cuando se abra una imagen*/
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
 
 .lightbox-target:target {
 opacity: 1;
@@ -136,8 +134,6 @@ top: 0px;
 
 </style>
 </head>
-<!--Lo que  hemos puesto en la cabecera afectara la siguiente información-->
-
 <body>
 <header class="graphicHeader pageHeader">
 <h1>Maheri Estudio de Diseño<a href="../index.htm" title="home"></a></h1>
@@ -156,8 +152,6 @@ top: 0px;
   <h1>&nbsp;</h1>
   <h1>Portafolio</h1>
   <p>&nbsp;</p>
-  
-  <!--Aqui llamamaremos a todos   los class creados previamente creados en el head -->
   <a class="lightbox" href="#ilustrarion2">
    <img src="../_images/ilustrarion2.jpg" alt="ilustracion"/>
 </a>
